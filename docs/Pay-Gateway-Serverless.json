@@ -1,0 +1,299 @@
+{
+  "version": "32.5.1",
+  "pages": [
+    {
+      "id": "LiN8IL-KgVPGIPMgRLj0",
+      "name": "Página-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-27",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-1",
+          "target": "7_kWwT_Us1BmGs9-ODPz-16"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-1",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-32",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-2",
+          "target": "7_kWwT_Us1BmGs9-ODPz-6"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-2",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-4",
+          "target": "7_kWwT_Us1BmGs9-ODPz-2"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-4",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-5",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-6",
+          "target": "7_kWwT_Us1BmGs9-ODPz-33"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-6",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-7",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-44",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-8",
+          "target": "7_kWwT_Us1BmGs9-ODPz-43"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-8",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-9",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-16",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-22",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-24",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-29",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-16",
+          "target": "7_kWwT_Us1BmGs9-ODPz-4"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-30",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-33",
+          "type": "node",
+          "parent": "1",
+          "label": "API / Recurrente"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-35",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-33",
+          "target": "7_kWwT_Us1BmGs9-ODPz-2"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-37",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-5",
+          "target": "7_kWwT_Us1BmGs9-ODPz-24"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-38",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-2",
+          "target": "7_kWwT_Us1BmGs9-ODPz-7"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-39",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-7",
+          "target": "7_kWwT_Us1BmGs9-ODPz-30"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-40",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-30",
+          "target": "7_kWwT_Us1BmGs9-ODPz-8"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-41",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-30",
+          "target": "7_kWwT_Us1BmGs9-ODPz-9"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-42",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-8",
+          "target": "7_kWwT_Us1BmGs9-ODPz-24"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-43",
+          "type": "node",
+          "parent": "1",
+          "label": "API Laravel"
+        },
+        {
+          "id": "7_kWwT_Us1BmGs9-ODPz-45",
+          "type": "edge",
+          "parent": "1",
+          "source": "7_kWwT_Us1BmGs9-ODPz-2",
+          "target": "7_kWwT_Us1BmGs9-ODPz-5"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-1",
+          "type": "node",
+          "parent": "1",
+          "label": "POST/ checkout"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Handler del Checkout"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-3",
+          "type": "node",
+          "parent": "1",
+          "label": "Cierra sesión de pago"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-4",
+          "type": "edge",
+          "parent": "1",
+          "target": "7_kWwT_Us1BmGs9-ODPz-2"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-6",
+          "type": "node",
+          "parent": "1",
+          "label": "Crear Checkout"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-7",
+          "type": "node",
+          "parent": "1",
+          "label": "Consultar Estado"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-8",
+          "type": "node",
+          "parent": "1",
+          "label": "Webhook de pago"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-9",
+          "type": "node",
+          "parent": "1",
+          "label": "GET/ estado"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-10",
+          "type": "node",
+          "parent": "1",
+          "label": "Estado del proceso"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-11",
+          "type": "node",
+          "parent": "1",
+          "label": "Handler de consulta de estado"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-12",
+          "type": "node",
+          "parent": "1",
+          "label": "Handler de verficiación de firma"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-13",
+          "type": "node",
+          "parent": "1",
+          "label": "POST/ webhook / Recurrente"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-14",
+          "type": "node",
+          "parent": "1",
+          "label": "Queue de evento válido"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-15",
+          "type": "node",
+          "parent": "1",
+          "label": "Handler para procesar activación"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-16",
+          "type": "node",
+          "parent": "1",
+          "label": "Queue de eventos fallidos"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-17",
+          "type": "node",
+          "parent": "1",
+          "label": "User"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-18",
+          "type": "node",
+          "parent": "1",
+          "label": "payment.apisys.info"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-19",
+          "type": "node",
+          "parent": "1",
+          "label": "App React"
+        },
+        {
+          "id": "ggsmFfu2aEA-TD43-LZ8-20",
+          "type": "node",
+          "parent": "1",
+          "label": "Request en formatos JSON"
+        }
+      ]
+    }
+  ]
+}
