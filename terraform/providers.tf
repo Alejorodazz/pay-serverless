@@ -1,4 +1,12 @@
 provider "aws" {
-  region                   = var.aws_region
-  shared_credentials_files = ["~/Usuario/.aws/credentials"]
+  region  = var.aws_region
+  profile = var.aws_profile
+
+  default_tags {
+    tags = local.common_tags
+  }
+}
+
+provider "cloudflare" {
+  api_token = var.cloudflare_api_token
 }

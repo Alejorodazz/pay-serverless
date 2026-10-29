@@ -1,0 +1,39 @@
+project_name = "pay-gateway-serverless"
+environment  = "dev"
+aws_region   = "us-east-1"
+
+# Debe ser único globalmente y cumplir las reglas de nombres de S3.
+frontend_bucket = "pay-gateway-frontend"
+
+bucket_tags = {
+  Environment = "Desarrollo"
+  Project     = "Pay_serverless"
+}
+
+# Cloudflare DNS/proxy.
+cloudflare_zone_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+# Preferiblemente exportar CLOUDFLARE_API_TOKEN en el entorno.
+# cloudflare_api_token = ""
+frontend_domain_name = "subdominio.dominio.com"
+
+# API Gateway detrás de Cloudflare. Requiere un certificado ACM regional.
+api_custom_domain_name = "subdominio.dominio.com"
+api_certificate_arn    = "arn:aws:acm:us-east-1:123456789012:certificate/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# Configuración funcional.
+recurrente_api_base_url  = "https://app.recurrente.com/api"
+recurrente_success_url   = "https://subdominio.dominio.com/success"
+recurrente_cancel_url    = "https://subdominio.dominio.com/cancel"
+checkout_default_currency = "USD"
+checkout_product_name    = "Payment"
+cors_allow_origin        = "https://subdominio.dominio.com"
+laravel_api_base_url     = "https://subdominio.dominio.com"
+
+# Nunca guardar estos ARN como valores secretos; solo apuntan a secretos de AWS.
+recurrente_secret_arn         = "arn:aws:secretsmanager:us-east-1:123456789012:secret:pay-gateway/recurrente-api"
+recurrente_webhook_secret_arn = "arn:aws:secretsmanager:us-east-1:123456789012:secret:pay-gateway/recurrente-webhook"
+laravel_api_token_secret_arn  = "arn:aws:secretsmanager:us-east-1:123456789012:secret:pay-gateway/laravel-token"
+
+lambda_log_retention_days          = 30
+event_batch_size                   = 10
+event_max_batching_window_seconds = 5
