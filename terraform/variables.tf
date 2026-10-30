@@ -61,6 +61,11 @@ variable "frontend_domain_name" {
   nullable    = true
 }
 
+variable "worker_script_name" {
+  description = "Nombre del Worker Proxy de Cloudflare"
+  type        = string
+}
+
 variable "api_custom_domain_name" {
   description = "Dominio opcional de API, por ejemplo payment.apisys.info."
   type        = string
@@ -87,6 +92,12 @@ variable "cloudflare_api_token" {
   type        = string
   default     = null
   nullable    = true
+  sensitive   = true
+}
+
+variable "cloudflare_account_id" {
+  description = "ID de cuenta de Cloudflare"
+  type        = string
   sensitive   = true
 }
 
